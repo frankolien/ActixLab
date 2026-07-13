@@ -1,21 +1,21 @@
 # Rust build output
 target/
-
-# If you have nested Rust projects
 **/target/
 
-# Environment variables
+# Rust / Cargo local files
+**/*.rs.bk
+**/.cargo/
+
+# Environment variables and local secrets
 .env
 .env.*
+!.env.example
+!.env.sample
 
-# macOS
+# Editor / OS files
 .DS_Store
-
-# VS Code
 .vscode/
-
-# JetBrains IDEs
 .idea/
 
-# Rust Analyzer
-*.rs.bk
+# Logs
+*.log
