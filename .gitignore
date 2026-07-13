@@ -1,0 +1,21 @@
+# Rust build output
+target/
+
+# If you have nested Rust projects
+**/target/
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Rust Analyzer
+*.rs.bk
